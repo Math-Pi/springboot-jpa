@@ -38,7 +38,6 @@ public class UserRepositoryTests {
 		userRepository.delete(userRepository.findByUserName("aa"));
 	}
 
-
 	@Test
 	public void testBaseQuery() {
 		Date date = new Date();

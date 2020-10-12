@@ -1,12 +1,23 @@
-# SpringBoot-Jpa 的使用
+# SpringBoot学习笔记（三）：Jpa基本使用
 
 [Spring Data JPA 参考指南](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference)
 
-## Spring Boot Jpa 介绍
+## 一、Spring Boot Jpa 介绍
 
 ### Jpa 是什么？
 
-Spring Data JPA为Java Persistence API（JPA）提供了存储库支持。它简化了需要访问JPA数据源的应用程序的开发。
+- Jpa (Java Persistence API) 是 Sun 官方提出的 Java 持久化规范。它为 Java 开发人员提供了一种对象/关联映射工具来管理 Java 应用中的关系数据。
+
+- Spring Data JPA为Java Persistence API（JPA）提供了存储库支持。它简化了需要访问JPA数据源的应用程序的开发。
+
+## 二、pom.xml引入Maven依赖
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+```
 
 ## 基本查询
 
